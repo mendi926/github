@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E26a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Bcu-6r-RBK">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="AvenirNext.ttc">
+            <string>AvenirNext-Regular</string>
+            <string>AvenirNext-Regular</string>
+            <string>AvenirNext-Regular</string>
+            <string>AvenirNext-Regular</string>
+            <string>AvenirNext-Regular</string>
+            <string>AvenirNext-Regular</string>
+            <string>AvenirNext-Regular</string>
+            <string>AvenirNext-Regular</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--Jobs-->
+        <scene sceneID="KcT-v5-J2H">
+            <objects>
+                <tableViewController title="Jobs" id="gZH-9Q-5Ql" customClass="JobTableViewController" customModule="OfertaPune" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="80" sectionHeaderHeight="22" sectionFooterHeight="22" id="eFm-ey-r9w">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <searchBar key="tableHeaderView" contentMode="redraw" placeholder="Kërko" id="2Ms-ZP-7sx">
+                            <rect key="frame" x="0.0" y="64" width="600" height="44"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <connections>
+                                <outlet property="delegate" destination="gZH-9Q-5Ql" id="GbH-Sm-Jyj"/>
+                            </connections>
+                        </searchBar>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Cell" rowHeight="80" id="4KR-3l-MTy" customClass="JobTableViewCell" customModule="OfertaPune">
+                                <rect key="frame" x="0.0" y="86" width="600" height="92"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="4KR-3l-MTy" id="YPH-Lr-g57">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="91"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pozita" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W5q-AY-rUF">
+                                            <rect key="frame" x="86" y="9" width="500" height="21"/>
+                                            <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="16"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Kompania" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gzv-bo-4ck">
+                                            <rect key="frame" x="86" y="35" width="500" height="18"/>
+                                            <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="13"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Qyteti" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hHI-xX-giy">
+                                            <rect key="frame" x="105" y="55" width="205" height="21"/>
+                                            <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="13"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Skadimi" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CZ7-CS-Npl">
+                                            <rect key="frame" x="196" y="55" width="205" height="21"/>
+                                            <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="13"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dQB-PN-xDk">
+                                            <rect key="frame" x="15" y="10" width="60" height="60"/>
+                                        </imageView>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="loc" translatesAutoresizingMaskIntoConstraints="NO" id="hHj-5C-LBh">
+                                            <rect key="frame" x="83" y="57" width="17" height="16"/>
+                                        </imageView>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="clock" translatesAutoresizingMaskIntoConstraints="NO" id="vhO-qF-gTo">
+                                            <rect key="frame" x="172" y="57" width="20" height="16"/>
+                                        </imageView>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="id" destination="CZ7-CS-Npl" id="Yaa-pl-76v"/>
+                                    <outlet property="kompania" destination="gzv-bo-4ck" id="b96-fi-v67"/>
+                                    <outlet property="logo" destination="dQB-PN-xDk" id="5IZ-Sl-mAT"/>
+                                    <outlet property="pozita" destination="W5q-AY-rUF" id="skS-qj-vQ3"/>
+                                    <outlet property="qyteti" destination="hHI-xX-giy" id="070-zC-Rkj"/>
+                                    <segue destination="fNI-rq-Nuw" kind="show" identifier="showJobDetail" id="x9O-69-jAe"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="gZH-9Q-5Ql" id="z9h-Jv-gXS"/>
+                            <outlet property="delegate" destination="gZH-9Q-5Ql" id="ktU-88-Lbg"/>
+                        </connections>
+                    </tableView>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Oferta Pune" id="gx8-Aw-muE"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="searchDisplayController" destination="hVU-xJ-UDP" id="zm1-wP-7sf"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="orQ-rh-zxq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="hVU-xJ-UDP">
+                    <connections>
+                        <outlet property="delegate" destination="gZH-9Q-5Ql" id="Xww-M7-FVj"/>
+                        <outlet property="searchBar" destination="2Ms-ZP-7sx" id="lCK-q3-PPN"/>
+                        <outlet property="searchContentsController" destination="gZH-9Q-5Ql" id="eXg-bQ-DUn"/>
+                        <outlet property="searchResultsDataSource" destination="gZH-9Q-5Ql" id="ejx-Qp-Lgh"/>
+                        <outlet property="searchResultsDelegate" destination="gZH-9Q-5Ql" id="Ph3-tK-oAo"/>
+                    </connections>
+                </searchDisplayController>
+            </objects>
+            <point key="canvasLocation" x="3624" y="301"/>
+        </scene>
+        <!--Job Detail Table View Controller-->
+        <scene sceneID="iFH-T6-6lG">
+            <objects>
+                <tableViewController id="fNI-rq-Nuw" customClass="JobDetailTableViewController" customModule="OfertaPune" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="57" sectionHeaderHeight="22" sectionFooterHeight="22" id="nlh-hm-j3g">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <textView key="tableFooterView" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" id="Zze-ng-pMO">
+                            <rect key="frame" x="0.0" y="143" width="600" height="400"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES"/>
+                        </textView>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="57" id="k76-T7-YT3" customClass="JobDetailTableViewCell" customModule="OfertaPune" customModuleProvider="target">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="k76-T7-YT3" id="Zb7-Tv-f7X">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Field" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4lE-Dj-qev">
+                                            <rect key="frame" x="17" y="8" width="32" height="20"/>
+                                            <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="14"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Value" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ydx-du-6q0">
+                                            <rect key="frame" x="17" y="28" width="565" height="20"/>
+                                            <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="14"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="Ydx-du-6q0" firstAttribute="leading" secondItem="Zb7-Tv-f7X" secondAttribute="leadingMargin" constant="9" id="CD0-Aw-aRh"/>
+                                        <constraint firstItem="4lE-Dj-qev" firstAttribute="top" secondItem="Zb7-Tv-f7X" secondAttribute="topMargin" id="F4k-Kc-jA7"/>
+                                        <constraint firstItem="4lE-Dj-qev" firstAttribute="leading" secondItem="Zb7-Tv-f7X" secondAttribute="leadingMargin" constant="9" id="JP8-Mx-m2r"/>
+                                        <constraint firstItem="Ydx-du-6q0" firstAttribute="bottom" secondItem="Zb7-Tv-f7X" secondAttribute="bottomMargin" id="QsC-wC-EIg"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="4lE-Dj-qev" secondAttribute="bottom" constant="20" id="Z73-jd-Kzf"/>
+                                        <constraint firstItem="Ydx-du-6q0" firstAttribute="top" secondItem="4lE-Dj-qev" secondAttribute="bottom" id="e1G-1f-err"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="Ydx-du-6q0" secondAttribute="trailing" constant="10" id="h9t-NT-iRk"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="fieldLabel" destination="4lE-Dj-qev" id="AXx-hV-KYf"/>
+                                    <outlet property="textView" destination="Zze-ng-pMO" id="pyV-nz-S7t"/>
+                                    <outlet property="valueLabel" destination="Ydx-du-6q0" id="fgX-ke-iAb"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="fNI-rq-Nuw" id="3Qr-8r-7Ah"/>
+                            <outlet property="delegate" destination="fNI-rq-Nuw" id="6A4-2e-eX8"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="pMz-cz-zgF">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="MFm-W5-haj">
+                            <button key="customView" opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="zCX-Yi-407">
+                                <rect key="frame" x="534" y="2" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="1"/>
+                                <state key="normal" image="unfaved">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="toggleFavorite:" destination="fNI-rq-Nuw" eventType="touchUpInside" id="qah-cn-0RB"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="favButton" destination="zCX-Yi-407" id="dH9-I3-uJq"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0Lq-BF-CyB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4633" y="301"/>
+        </scene>
+        <!--Favorites-->
+        <scene sceneID="cIK-yo-Zzs">
+            <objects>
+                <tableViewController title="Favorites" id="chR-Gh-26e" customClass="FavTableViewController" customModule="OfertaPune" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="92" sectionHeaderHeight="22" sectionFooterHeight="22" id="oC6-Db-4MA">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Cell" rowHeight="80" id="Ril-8a-ekz" customClass="JobTableViewCell" customModule="OfertaPune">
+                                <rect key="frame" x="0.0" y="86" width="600" height="92"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ril-8a-ekz" id="5SN-Uw-hsa">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="91"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pozita" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RlK-Un-PIQ">
+                                            <rect key="frame" x="86" y="9" width="500" height="21"/>
+                                            <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="16"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Kompania" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JpR-Ji-BLM">
+                                            <rect key="frame" x="86" y="35" width="500" height="18"/>
+                                            <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="13"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Qyteti" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FZg-9O-num">
+                                            <rect key="frame" x="105" y="55" width="75" height="21"/>
+                                            <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="13"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Skadimi" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UYb-Zb-hYe">
+                                            <rect key="frame" x="206" y="55" width="205" height="21"/>
+                                            <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="13"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yfb-Ji-2rg">
+                                            <rect key="frame" x="8" y="10" width="67" height="60"/>
+                                        </imageView>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="loc" translatesAutoresizingMaskIntoConstraints="NO" id="CGc-cv-mMc">
+                                            <rect key="frame" x="83" y="57" width="17" height="16"/>
+                                        </imageView>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="clock" translatesAutoresizingMaskIntoConstraints="NO" id="4Mk-n0-U5c">
+                                            <rect key="frame" x="177" y="57" width="25" height="16"/>
+                                        </imageView>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="id" destination="UYb-Zb-hYe" id="Jee-93-EZp"/>
+                                    <outlet property="kompania" destination="JpR-Ji-BLM" id="AXd-7u-hNt"/>
+                                    <outlet property="logo" destination="yfb-Ji-2rg" id="rHU-Cw-NTc"/>
+                                    <outlet property="pozita" destination="RlK-Un-PIQ" id="dBt-df-7qd"/>
+                                    <outlet property="qyteti" destination="FZg-9O-num" id="zI9-bY-2JJ"/>
+                                    <segue destination="5Nu-WR-neS" kind="show" identifier="showJobDetail" id="lSU-Qb-GEP"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="chR-Gh-26e" id="rFL-xB-bJa"/>
+                            <outlet property="delegate" destination="chR-Gh-26e" id="AX4-d1-Mtk"/>
+                        </connections>
+                    </tableView>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Oferta Pune" id="Tmn-7E-1Ui"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c7d-cn-nEH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3625" y="1060"/>
+        </scene>
+        <!--JobsNav-->
+        <scene sceneID="e34-xc-caC">
+            <objects>
+                <navigationController title="JobsNav" automaticallyAdjustsScrollViewInsets="NO" id="nN3-WO-mIO" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" systemItem="recents" id="jaD-rw-COe"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="UhE-Fa-xxw">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="barTintColor" red="0.90588235289999997" green="0.37254901959999998" blue="0.20784313730000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="22"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <offsetWrapper key="textShadowOffset" horizontal="0.0" vertical="0.0"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="gZH-9Q-5Ql" kind="relationship" relationship="rootViewController" id="8he-Ld-waZ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yuo-EF-83V" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2813" y="301.99999999999994"/>
+        </scene>
+        <!--FavoritesNav-->
+        <scene sceneID="MB0-fb-aVU">
+            <objects>
+                <navigationController title="FavoritesNav" automaticallyAdjustsScrollViewInsets="NO" id="ALi-gd-63o" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" systemItem="favorites" id="ZEG-95-wJ1"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="pvn-FB-FRZ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="barTintColor" red="0.90588235289999997" green="0.37254901959999998" blue="0.20784313730000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="22"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <offsetWrapper key="textShadowOffset" horizontal="0.0" vertical="0.0"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="chR-Gh-26e" kind="relationship" relationship="rootViewController" id="XOV-eo-Oly"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b5T-9A-Tbc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2813" y="1060"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="koL-dH-Tee">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Bcu-6r-RBK" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" translucent="NO" id="eWr-io-EJD">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.90588235289999997" green="0.37254901959999998" blue="0.20784313730000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="nN3-WO-mIO" kind="relationship" relationship="viewControllers" id="spT-Wp-C4v"/>
+                        <segue destination="ALi-gd-63o" kind="relationship" relationship="viewControllers" id="2sy-dE-Ivv"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hST-KM-5h5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2001" y="301.99999999999994"/>
+        </scene>
+        <!--Job Detail Table View Controller-->
+        <scene sceneID="i4E-Iq-UlQ">
+            <objects>
+                <tableViewController id="5Nu-WR-neS" customClass="JobDetailTableViewController" customModule="OfertaPune" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="57" sectionHeaderHeight="22" sectionFooterHeight="22" id="pqY-Cx-aEy">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <textView key="tableFooterView" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" id="rKR-Wc-AsL">
+                            <rect key="frame" x="0.0" y="143" width="600" height="400"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES"/>
+                        </textView>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="57" id="smJ-bj-LMU" customClass="JobDetailTableViewCell" customModule="OfertaPune" customModuleProvider="target">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="smJ-bj-LMU" id="eZi-4V-uK9">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Field" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0hj-20-nGO">
+                                            <rect key="frame" x="17" y="8" width="32" height="20"/>
+                                            <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="14"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Value" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EYa-bs-pbW">
+                                            <rect key="frame" x="17" y="28" width="565" height="20"/>
+                                            <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="14"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="EYa-bs-pbW" firstAttribute="bottom" secondItem="eZi-4V-uK9" secondAttribute="bottomMargin" id="Qx0-16-FVU"/>
+                                        <constraint firstItem="EYa-bs-pbW" firstAttribute="top" secondItem="0hj-20-nGO" secondAttribute="bottom" id="RLG-0n-GRv"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="0hj-20-nGO" secondAttribute="bottom" constant="20" id="WHf-0o-R5C"/>
+                                        <constraint firstItem="EYa-bs-pbW" firstAttribute="leading" secondItem="eZi-4V-uK9" secondAttribute="leadingMargin" constant="9" id="fMZ-Bh-AWG"/>
+                                        <constraint firstItem="0hj-20-nGO" firstAttribute="leading" secondItem="eZi-4V-uK9" secondAttribute="leadingMargin" constant="9" id="lr4-l0-ZXA"/>
+                                        <constraint firstItem="0hj-20-nGO" firstAttribute="top" secondItem="eZi-4V-uK9" secondAttribute="topMargin" id="qSz-dw-ccg"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="EYa-bs-pbW" secondAttribute="trailing" constant="10" id="rvv-85-iB2"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="fieldLabel" destination="0hj-20-nGO" id="DlM-Xv-BCQ"/>
+                                    <outlet property="textView" destination="rKR-Wc-AsL" id="k3l-Gt-kcb"/>
+                                    <outlet property="valueLabel" destination="EYa-bs-pbW" id="pyv-48-5RF"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="5Nu-WR-neS" id="HUb-QT-SXX"/>
+                            <outlet property="delegate" destination="5Nu-WR-neS" id="iDF-Ib-d5G"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="yFY-zc-FoM">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="kPL-4T-Q35">
+                            <button key="customView" opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="7AZ-5f-ecP">
+                                <rect key="frame" x="534" y="2" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="1"/>
+                                <state key="normal" image="unfaved">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="toggleFavorite:" destination="5Nu-WR-neS" eventType="touchUpInside" id="Pfu-h3-fMh"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="favButton" destination="7AZ-5f-ecP" id="rU7-7f-YTI"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2W0-HB-Bx3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4633" y="1060"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="clock" width="25" height="30"/>
+        <image name="loc" width="22" height="30"/>
+        <image name="unfaved" width="64" height="64"/>
+    </resources>
+</document>

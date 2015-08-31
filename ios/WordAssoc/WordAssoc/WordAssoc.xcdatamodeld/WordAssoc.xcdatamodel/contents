@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14E26a" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="AssocSet" representedClassName="AssocSet" syncable="YES">
+        <attribute name="a" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="a1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="a2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="a3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="a4" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="b" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="b1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="b2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="b3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="b4" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="c" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="c1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="c2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="c3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="c4" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="d" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="d1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="d2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="d3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="d4" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="rez" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="AssocSetProgress" representedClassName="AssocSetProgress" syncable="YES">
+        <attribute name="a" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="a1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="a2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="a3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="a4" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="b" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="b1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="b2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="b3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="b4" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="c" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="c1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="c2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="c3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="c4" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="d" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="d1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="d2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="d3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="d4" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="points" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="rez" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="AssocSet" positionX="-54" positionY="-9" width="128" height="375"/>
+        <element name="AssocSetProgress" positionX="-54" positionY="144" width="128" height="390"/>
+    </elements>
+</model>

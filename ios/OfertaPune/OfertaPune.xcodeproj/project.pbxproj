@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		074DAC741B879C3B00EFBC52 /* JobDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074DAC731B879C3B00EFBC52 /* JobDetailTableViewCell.swift */; };
+		074DAC761B87B02800EFBC52 /* JobDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074DAC751B87B02800EFBC52 /* JobDetailTableViewController.swift */; };
+		07BF65BE1B83800F005225C6 /* ICSInfiniteScrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BF65BC1B83800F005225C6 /* ICSInfiniteScrolling.swift */; };
+		07BF65BF1B83800F005225C6 /* ICSPullToRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BF65BD1B83800F005225C6 /* ICSPullToRefresh.swift */; };
+		07D6D3E81B89C55C00C0BF72 /* FavTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D6D3E71B89C55C00C0BF72 /* FavTableViewController.swift */; };
+		07DC0D401B84F92900A4F71C /* Jobs.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 07DC0D3E1B84F92900A4F71C /* Jobs.xcdatamodeld */; };
+		7303A490167AD1C355277975 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A543BC4C424E89DA3E6E0E74 /* libPods.a */; };
+		F4C8148A1A1D8EEE0004C3A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C814891A1D8EEE0004C3A9 /* AppDelegate.swift */; };
+		F4C8148F1A1D8EEE0004C3A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4C8148D1A1D8EEE0004C3A9 /* Main.storyboard */; };
+		F4C814911A1D8EEE0004C3A9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4C814901A1D8EEE0004C3A9 /* Images.xcassets */; };
+		F4C814941A1D8EEE0004C3A9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4C814921A1D8EEE0004C3A9 /* LaunchScreen.xib */; };
+		F4C814A01A1D8EEE0004C3A9 /* KivaLoanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C8149F1A1D8EEE0004C3A9 /* KivaLoanTests.swift */; };
+		F4C814AA1A1D91760004C3A9 /* JobTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C814A91A1D91760004C3A9 /* JobTableViewController.swift */; };
+		F4C814AC1A1D919E0004C3A9 /* JobTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C814AB1A1D919E0004C3A9 /* JobTableViewCell.swift */; };
+		F4C814AE1A1DA5EB0004C3A9 /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C814AD1A1DA5EB0004C3A9 /* Job.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4C8149A1A1D8EEE0004C3A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4C8147C1A1D8EEE0004C3A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4C814831A1D8EEE0004C3A9;
+			remoteInfo = KivaLoan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		074DAC731B879C3B00EFBC52 /* JobDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobDetailTableViewCell.swift; sourceTree = "<group>"; };
+		074DAC751B87B02800EFBC52 /* JobDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobDetailTableViewController.swift; sourceTree = "<group>"; };
+		077538B31B8CEB3E007E131F /* OfertaPune-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OfertaPune-Bridging-Header.h"; sourceTree = "<group>"; };
+		07BF65BC1B83800F005225C6 /* ICSInfiniteScrolling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ICSInfiniteScrolling.swift; sourceTree = "<group>"; };
+		07BF65BD1B83800F005225C6 /* ICSPullToRefresh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ICSPullToRefresh.swift; sourceTree = "<group>"; };
+		07D6D3E71B89C55C00C0BF72 /* FavTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavTableViewController.swift; sourceTree = "<group>"; };
+		07DC0D3F1B84F92900A4F71C /* Jobs.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Jobs.xcdatamodel; sourceTree = "<group>"; };
+		515A6E196CDB16F50A61CF34 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		A543BC4C424E89DA3E6E0E74 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1D72D02290EF7A6286BDD66 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		F4C814841A1D8EEE0004C3A9 /* OfertaPune.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OfertaPune.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4C814881A1D8EEE0004C3A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4C814891A1D8EEE0004C3A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4C8148E1A1D8EEE0004C3A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4C814901A1D8EEE0004C3A9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F4C814931A1D8EEE0004C3A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F4C814991A1D8EEE0004C3A9 /* OfertaPuneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OfertaPuneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4C8149E1A1D8EEE0004C3A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4C8149F1A1D8EEE0004C3A9 /* KivaLoanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KivaLoanTests.swift; sourceTree = "<group>"; };
+		F4C814A91A1D91760004C3A9 /* JobTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobTableViewController.swift; sourceTree = "<group>"; };
+		F4C814AB1A1D919E0004C3A9 /* JobTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobTableViewCell.swift; sourceTree = "<group>"; };
+		F4C814AD1A1DA5EB0004C3A9 /* Job.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4C814811A1D8EEE0004C3A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7303A490167AD1C355277975 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4C814961A1D8EEE0004C3A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4846DFEA0668FF14BE5BE850 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				515A6E196CDB16F50A61CF34 /* Pods.debug.xcconfig */,
+				B1D72D02290EF7A6286BDD66 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F1BF6CFCFCDFB574592B7B17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A543BC4C424E89DA3E6E0E74 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4C8147B1A1D8EEE0004C3A9 = {
+			isa = PBXGroup;
+			children = (
+				F4C814861A1D8EEE0004C3A9 /* OfertaPune */,
+				F4C8149C1A1D8EEE0004C3A9 /* OfertaPuneTests */,
+				F4C814851A1D8EEE0004C3A9 /* Products */,
+				4846DFEA0668FF14BE5BE850 /* Pods */,
+				F1BF6CFCFCDFB574592B7B17 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F4C814851A1D8EEE0004C3A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4C814841A1D8EEE0004C3A9 /* OfertaPune.app */,
+				F4C814991A1D8EEE0004C3A9 /* OfertaPuneTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4C814861A1D8EEE0004C3A9 /* OfertaPune */ = {
+			isa = PBXGroup;
+			children = (
+				F4C814891A1D8EEE0004C3A9 /* AppDelegate.swift */,
+				F4C8148D1A1D8EEE0004C3A9 /* Main.storyboard */,
+				F4C814901A1D8EEE0004C3A9 /* Images.xcassets */,
+				F4C814921A1D8EEE0004C3A9 /* LaunchScreen.xib */,
+				F4C814871A1D8EEE0004C3A9 /* Supporting Files */,
+				F4C814A91A1D91760004C3A9 /* JobTableViewController.swift */,
+				F4C814AB1A1D919E0004C3A9 /* JobTableViewCell.swift */,
+				074DAC751B87B02800EFBC52 /* JobDetailTableViewController.swift */,
+				074DAC731B879C3B00EFBC52 /* JobDetailTableViewCell.swift */,
+				F4C814AD1A1DA5EB0004C3A9 /* Job.swift */,
+				07BF65BC1B83800F005225C6 /* ICSInfiniteScrolling.swift */,
+				07BF65BD1B83800F005225C6 /* ICSPullToRefresh.swift */,
+				07DC0D3E1B84F92900A4F71C /* Jobs.xcdatamodeld */,
+				07D6D3E71B89C55C00C0BF72 /* FavTableViewController.swift */,
+				077538B31B8CEB3E007E131F /* OfertaPune-Bridging-Header.h */,
+			);
+			path = OfertaPune;
+			sourceTree = "<group>";
+		};
+		F4C814871A1D8EEE0004C3A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4C814881A1D8EEE0004C3A9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4C8149C1A1D8EEE0004C3A9 /* OfertaPuneTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4C8149F1A1D8EEE0004C3A9 /* KivaLoanTests.swift */,
+				F4C8149D1A1D8EEE0004C3A9 /* Supporting Files */,
+			);
+			path = OfertaPuneTests;
+			sourceTree = "<group>";
+		};
+		F4C8149D1A1D8EEE0004C3A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4C8149E1A1D8EEE0004C3A9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4C814831A1D8EEE0004C3A9 /* OfertaPune */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4C814A31A1D8EEE0004C3A9 /* Build configuration list for PBXNativeTarget "OfertaPune" */;
+			buildPhases = (
+				C93A8FB0CCD57E97380E309C /* Check Pods Manifest.lock */,
+				F4C814801A1D8EEE0004C3A9 /* Sources */,
+				F4C814811A1D8EEE0004C3A9 /* Frameworks */,
+				F4C814821A1D8EEE0004C3A9 /* Resources */,
+				F88C9192E070C3EF2D0ABD12 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OfertaPune;
+			productName = KivaLoan;
+			productReference = F4C814841A1D8EEE0004C3A9 /* OfertaPune.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4C814981A1D8EEE0004C3A9 /* OfertaPuneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4C814A61A1D8EEE0004C3A9 /* Build configuration list for PBXNativeTarget "OfertaPuneTests" */;
+			buildPhases = (
+				F4C814951A1D8EEE0004C3A9 /* Sources */,
+				F4C814961A1D8EEE0004C3A9 /* Frameworks */,
+				F4C814971A1D8EEE0004C3A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4C8149B1A1D8EEE0004C3A9 /* PBXTargetDependency */,
+			);
+			name = OfertaPuneTests;
+			productName = KivaLoanTests;
+			productReference = F4C814991A1D8EEE0004C3A9 /* OfertaPuneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4C8147C1A1D8EEE0004C3A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Armend;
+				TargetAttributes = {
+					F4C814831A1D8EEE0004C3A9 = {
+						CreatedOnToolsVersion = 6.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
+					F4C814981A1D8EEE0004C3A9 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = F4C814831A1D8EEE0004C3A9;
+					};
+				};
+			};
+			buildConfigurationList = F4C8147F1A1D8EEE0004C3A9 /* Build configuration list for PBXProject "OfertaPune" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4C8147B1A1D8EEE0004C3A9;
+			productRefGroup = F4C814851A1D8EEE0004C3A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4C814831A1D8EEE0004C3A9 /* OfertaPune */,
+				F4C814981A1D8EEE0004C3A9 /* OfertaPuneTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4C814821A1D8EEE0004C3A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C8148F1A1D8EEE0004C3A9 /* Main.storyboard in Resources */,
+				F4C814941A1D8EEE0004C3A9 /* LaunchScreen.xib in Resources */,
+				F4C814911A1D8EEE0004C3A9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4C814971A1D8EEE0004C3A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C93A8FB0CCD57E97380E309C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F88C9192E070C3EF2D0ABD12 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4C814801A1D8EEE0004C3A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C814AC1A1D919E0004C3A9 /* JobTableViewCell.swift in Sources */,
+				07BF65BF1B83800F005225C6 /* ICSPullToRefresh.swift in Sources */,
+				F4C814AA1A1D91760004C3A9 /* JobTableViewController.swift in Sources */,
+				07BF65BE1B83800F005225C6 /* ICSInfiniteScrolling.swift in Sources */,
+				07DC0D401B84F92900A4F71C /* Jobs.xcdatamodeld in Sources */,
+				074DAC761B87B02800EFBC52 /* JobDetailTableViewController.swift in Sources */,
+				074DAC741B879C3B00EFBC52 /* JobDetailTableViewCell.swift in Sources */,
+				07D6D3E81B89C55C00C0BF72 /* FavTableViewController.swift in Sources */,
+				F4C8148A1A1D8EEE0004C3A9 /* AppDelegate.swift in Sources */,
+				F4C814AE1A1DA5EB0004C3A9 /* Job.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4C814951A1D8EEE0004C3A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C814A01A1D8EEE0004C3A9 /* KivaLoanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4C8149B1A1D8EEE0004C3A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4C814831A1D8EEE0004C3A9 /* OfertaPune */;
+			targetProxy = F4C8149A1A1D8EEE0004C3A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4C8148D1A1D8EEE0004C3A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4C8148E1A1D8EEE0004C3A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4C814921A1D8EEE0004C3A9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4C814931A1D8EEE0004C3A9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4C814A11A1D8EEE0004C3A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4C814A21A1D8EEE0004C3A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4C814A41A1D8EEE0004C3A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 515A6E196CDB16F50A61CF34 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = OfertaPune/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = OfertaPune;
+				SWIFT_OBJC_BRIDGING_HEADER = "OfertaPune/OfertaPune-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4C814A51A1D8EEE0004C3A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1D72D02290EF7A6286BDD66 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = OfertaPune/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = OfertaPune;
+				SWIFT_OBJC_BRIDGING_HEADER = "OfertaPune/OfertaPune-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		F4C814A71A1D8EEE0004C3A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KivaLoanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = OfertaPuneTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KivaLoan.app/KivaLoan";
+			};
+			name = Debug;
+		};
+		F4C814A81A1D8EEE0004C3A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KivaLoanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = OfertaPuneTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KivaLoan.app/KivaLoan";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4C8147F1A1D8EEE0004C3A9 /* Build configuration list for PBXProject "OfertaPune" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4C814A11A1D8EEE0004C3A9 /* Debug */,
+				F4C814A21A1D8EEE0004C3A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4C814A31A1D8EEE0004C3A9 /* Build configuration list for PBXNativeTarget "OfertaPune" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4C814A41A1D8EEE0004C3A9 /* Debug */,
+				F4C814A51A1D8EEE0004C3A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4C814A61A1D8EEE0004C3A9 /* Build configuration list for PBXNativeTarget "OfertaPuneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4C814A71A1D8EEE0004C3A9 /* Debug */,
+				F4C814A81A1D8EEE0004C3A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		07DC0D3E1B84F92900A4F71C /* Jobs.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				07DC0D3F1B84F92900A4F71C /* Jobs.xcdatamodel */,
+			);
+			currentVersion = 07DC0D3F1B84F92900A4F71C /* Jobs.xcdatamodel */;
+			path = Jobs.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F4C8147C1A1D8EEE0004C3A9 /* Project object */;
+}

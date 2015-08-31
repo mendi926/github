@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14E26a" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Job" representedClassName="OfertaPune.Job" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="imgurl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isFavorite" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="kompania" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="kontakt" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orari" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pershkrimi" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pozita" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="qyteti" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="skadimi" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tags" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Job" positionX="-63" positionY="-18" width="128" height="210"/>
+    </elements>
+</model>
